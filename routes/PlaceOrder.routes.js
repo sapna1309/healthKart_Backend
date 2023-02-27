@@ -1,5 +1,6 @@
 const express = require("express");
-const { PlaceOrderModel } = require("../model/Placeorder.model");
+const { PlaceOrderModel } = require("../model/PlaceOrder.model");
+
 
 
 const PlaceOrderRouter = express.Router();

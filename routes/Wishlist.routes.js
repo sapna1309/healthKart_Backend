@@ -1,6 +1,7 @@
 const express = require("express");
 const { WishlistModel } = require("../model/Wishlist.model");
 
+
 const WishlistRouter = express.Router();
 
 WishlistRouter.get("/", async (req, res) => {

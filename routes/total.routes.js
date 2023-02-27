@@ -1,6 +1,7 @@
 const express = require("express");
 const { ProductModel } = require("../model/Product.model");
 
+
 const TotalRouter = express.Router();
 
 TotalRouter.get("/",async(req,res)=>{

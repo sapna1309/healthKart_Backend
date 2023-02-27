@@ -2,6 +2,7 @@ const express = require("express");
 const { ProductDetailModel } = require("../model/Productdetails.model");
 
 
+
 const ProductDetailRouter = express.Router();
 
 ProductDetailRouter.get("/", async (req, res) => {
